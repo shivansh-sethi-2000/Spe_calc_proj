@@ -16,12 +16,17 @@ public class Calculator {
         Calculator calculator = new Calculator();
         Scanner scanner = new Scanner(System.in);
         double number1, number2;
-        int choice;
-        while(scanner.hasNextInt()) {
+        do {
             System.out.println("Scientific Calculator using DevOps. \n Choose operation:");
             System.out.print("1. Factorial\n2. Square root\n3. Power\n4. Natural Logarithm\n" +
                     "5. Exit\nEnter your choice: ");
-            choice = scanner.nextInt();
+            int choice;
+            try {
+                choice = scanner.nextInt();
+            } catch (InputMismatchException error) {
+                scanner.close();
+                return;
+            }
 
             switch (choice) {
                 case 1:

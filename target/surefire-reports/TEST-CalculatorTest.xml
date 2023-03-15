@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalculatorTest" time="0.395" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalculatorTest" time="0.696" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/shivanshsethi/Desktop/spe/Spe_calc_proj/target/surefire/surefirebooter-20230314234009800_3.jar /Users/shivanshsethi/Desktop/spe/Spe_calc_proj/target/surefire 2023-03-14T23-40-09_634-jvmRun1 surefire-20230314234009800_1tmp surefire_0-20230314234009800_2tmp"/>
+    <property name="sun.java.command" value="/Users/shivanshsethi/Desktop/spe/Spe_calc_proj/target/surefire/surefirebooter-20230315004441775_3.jar /Users/shivanshsethi/Desktop/spe/Spe_calc_proj/target/surefire 2023-03-15T00-44-41_499-jvmRun1 surefire-20230315004441775_1tmp surefire_0-20230315004441775_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/shivanshsethi/Desktop/spe/Spe_calc_proj/target/test-classes:/Users/shivanshsethi/Desktop/spe/Spe_calc_proj/target/classes:/Users/shivanshsethi/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/shivanshsethi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/shivanshsethi/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.0/log4j-api-2.14.0.jar:/Users/shivanshsethi/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.0/log4j-core-2.14.0.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/shivanshsethi/Desktop/spe/Spe_calc_proj/target/surefire/surefirebooter-20230314234009800_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/shivanshsethi/Desktop/spe/Spe_calc_proj/target/surefire/surefirebooter-20230315004441775_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="19.0.2"/>
@@ -58,64 +58,64 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="factorialFalsePositive" classname="CalculatorTest" time="0.343"/>
-  <testcase name="squareRootTruePositive" classname="CalculatorTest" time="0.006">
-    <system-out><![CDATA[23:40:10.429 [main] INFO  calculator.Calculator - [SQ ROOT] - 16.0
-23:40:10.431 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 4.0
-23:40:10.431 [main] INFO  calculator.Calculator - [SQ ROOT] - 1.0
-23:40:10.431 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 1.0
-23:40:10.431 [main] INFO  calculator.Calculator - [SQ ROOT] - 81.0
-23:40:10.432 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 9.0
-23:40:10.432 [main] INFO  calculator.Calculator - [SQ ROOT] - 36.0
-23:40:10.432 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 6.0
+  <testcase name="factorialFalsePositive" classname="CalculatorTest" time="0.636"/>
+  <testcase name="squareRootTruePositive" classname="CalculatorTest" time="0.007">
+    <system-out><![CDATA[00:44:42.800 [main] INFO  calculator.Calculator - [SQ ROOT] - 16.0
+00:44:42.803 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 4.0
+00:44:42.803 [main] INFO  calculator.Calculator - [SQ ROOT] - 1.0
+00:44:42.803 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 1.0
+00:44:42.803 [main] INFO  calculator.Calculator - [SQ ROOT] - 81.0
+00:44:42.803 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 9.0
+00:44:42.803 [main] INFO  calculator.Calculator - [SQ ROOT] - 36.0
+00:44:42.803 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 6.0
 ]]></system-out>
   </testcase>
   <testcase name="squareRootFalsePositive" classname="CalculatorTest" time="0">
-    <system-out><![CDATA[23:40:10.432 [main] INFO  calculator.Calculator - [SQ ROOT] - 3.0
-23:40:10.432 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 1.7320508075688772
-23:40:10.433 [main] INFO  calculator.Calculator - [SQ ROOT] - 4.0
-23:40:10.433 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 2.0
-23:40:10.433 [main] INFO  calculator.Calculator - [SQ ROOT] - 81.0
-23:40:10.433 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 9.0
-23:40:10.433 [main] INFO  calculator.Calculator - [SQ ROOT] - 36.0
-23:40:10.433 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 6.0
+    <system-out><![CDATA[00:44:42.804 [main] INFO  calculator.Calculator - [SQ ROOT] - 3.0
+00:44:42.804 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 1.7320508075688772
+00:44:42.804 [main] INFO  calculator.Calculator - [SQ ROOT] - 4.0
+00:44:42.804 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 2.0
+00:44:42.805 [main] INFO  calculator.Calculator - [SQ ROOT] - 81.0
+00:44:42.805 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 9.0
+00:44:42.805 [main] INFO  calculator.Calculator - [SQ ROOT] - 36.0
+00:44:42.805 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 6.0
 ]]></system-out>
   </testcase>
-  <testcase name="logTruePositive" classname="CalculatorTest" time="0">
-    <system-out><![CDATA[23:40:10.434 [main] INFO  calculator.Calculator - [NATURAL LOG] - 1.0
-23:40:10.434 [main] INFO  calculator.Calculator - [RESULT - NATURAL LOG] - 0.0
+  <testcase name="logTruePositive" classname="CalculatorTest" time="0.001">
+    <system-out><![CDATA[00:44:42.806 [main] INFO  calculator.Calculator - [NATURAL LOG] - 1.0
+00:44:42.806 [main] INFO  calculator.Calculator - [RESULT - NATURAL LOG] - 0.0
 ]]></system-out>
   </testcase>
   <testcase name="factorialTruePositive" classname="CalculatorTest" time="0"/>
-  <testcase name="powerFalsePositive" classname="CalculatorTest" time="0.002">
-    <system-out><![CDATA[23:40:10.435 [main] INFO  calculator.Calculator - [POWER - 2.0 RAISED TO] 3.0
-23:40:10.435 [main] INFO  calculator.Calculator - [RESULT - POWER] - 8.0
-23:40:10.435 [main] INFO  calculator.Calculator - [POWER - 3.0 RAISED TO] 3.0
-23:40:10.435 [main] INFO  calculator.Calculator - [RESULT - POWER] - 27.0
-23:40:10.436 [main] INFO  calculator.Calculator - [POWER - 4.0 RAISED TO] 3.0
-23:40:10.436 [main] INFO  calculator.Calculator - [RESULT - POWER] - 64.0
-23:40:10.436 [main] INFO  calculator.Calculator - [POWER - 5.0 RAISED TO] 3.0
-23:40:10.436 [main] INFO  calculator.Calculator - [RESULT - POWER] - 125.0
+  <testcase name="powerFalsePositive" classname="CalculatorTest" time="0.001">
+    <system-out><![CDATA[00:44:42.807 [main] INFO  calculator.Calculator - [POWER - 2.0 RAISED TO] 3.0
+00:44:42.807 [main] INFO  calculator.Calculator - [RESULT - POWER] - 8.0
+00:44:42.807 [main] INFO  calculator.Calculator - [POWER - 3.0 RAISED TO] 3.0
+00:44:42.807 [main] INFO  calculator.Calculator - [RESULT - POWER] - 27.0
+00:44:42.808 [main] INFO  calculator.Calculator - [POWER - 4.0 RAISED TO] 3.0
+00:44:42.808 [main] INFO  calculator.Calculator - [RESULT - POWER] - 64.0
+00:44:42.808 [main] INFO  calculator.Calculator - [POWER - 5.0 RAISED TO] 3.0
+00:44:42.808 [main] INFO  calculator.Calculator - [RESULT - POWER] - 125.0
 ]]></system-out>
   </testcase>
-  <testcase name="powerTruePositive" classname="CalculatorTest" time="0.001">
-    <system-out><![CDATA[23:40:10.436 [main] INFO  calculator.Calculator - [POWER - 2.0 RAISED TO] 3.0
-23:40:10.436 [main] INFO  calculator.Calculator - [RESULT - POWER] - 8.0
-23:40:10.437 [main] INFO  calculator.Calculator - [POWER - 1.0 RAISED TO] 3.0
-23:40:10.437 [main] INFO  calculator.Calculator - [RESULT - POWER] - 1.0
-23:40:10.437 [main] INFO  calculator.Calculator - [POWER - 3.0 RAISED TO] 4.0
-23:40:10.437 [main] INFO  calculator.Calculator - [RESULT - POWER] - 81.0
-23:40:10.437 [main] INFO  calculator.Calculator - [POWER - 4.0 RAISED TO] 3.0
-23:40:10.437 [main] INFO  calculator.Calculator - [RESULT - POWER] - 64.0
-23:40:10.437 [main] INFO  calculator.Calculator - [POWER - 5.0 RAISED TO] 2.0
-23:40:10.437 [main] INFO  calculator.Calculator - [RESULT - POWER] - 25.0
+  <testcase name="powerTruePositive" classname="CalculatorTest" time="0.002">
+    <system-out><![CDATA[00:44:42.809 [main] INFO  calculator.Calculator - [POWER - 2.0 RAISED TO] 3.0
+00:44:42.809 [main] INFO  calculator.Calculator - [RESULT - POWER] - 8.0
+00:44:42.809 [main] INFO  calculator.Calculator - [POWER - 1.0 RAISED TO] 3.0
+00:44:42.809 [main] INFO  calculator.Calculator - [RESULT - POWER] - 1.0
+00:44:42.809 [main] INFO  calculator.Calculator - [POWER - 3.0 RAISED TO] 4.0
+00:44:42.809 [main] INFO  calculator.Calculator - [RESULT - POWER] - 81.0
+00:44:42.810 [main] INFO  calculator.Calculator - [POWER - 4.0 RAISED TO] 3.0
+00:44:42.810 [main] INFO  calculator.Calculator - [RESULT - POWER] - 64.0
+00:44:42.810 [main] INFO  calculator.Calculator - [POWER - 5.0 RAISED TO] 2.0
+00:44:42.810 [main] INFO  calculator.Calculator - [RESULT - POWER] - 25.0
 ]]></system-out>
   </testcase>
   <testcase name="logFalsePositive" classname="CalculatorTest" time="0.001">
-    <system-out><![CDATA[23:40:10.438 [main] INFO  calculator.Calculator - [NATURAL LOG] - 2.4
-23:40:10.438 [main] INFO  calculator.Calculator - [RESULT - NATURAL LOG] - 0.8754687373538999
-23:40:10.438 [main] INFO  calculator.Calculator - [NATURAL LOG] - 2.1
-23:40:10.438 [main] INFO  calculator.Calculator - [RESULT - NATURAL LOG] - 0.7419373447293773
+    <system-out><![CDATA[00:44:42.811 [main] INFO  calculator.Calculator - [NATURAL LOG] - 2.4
+00:44:42.811 [main] INFO  calculator.Calculator - [RESULT - NATURAL LOG] - 0.8754687373538999
+00:44:42.811 [main] INFO  calculator.Calculator - [NATURAL LOG] - 2.1
+00:44:42.811 [main] INFO  calculator.Calculator - [RESULT - NATURAL LOG] - 0.7419373447293773
 ]]></system-out>
   </testcase>
 </testsuite>
