@@ -9,7 +9,7 @@
         state: started
         
     - name: pull docker image
-      shell: docker pull shivanshsethi2000/speminiproject
+      shell: docker pull shivanshsethi2000/speminiproject:latest
       
     - name: running container
-      shell: docker run -it -d shivanshsethi2000/speminiproject
+      shell: docker run -it -d shivanshsethi2000/speminiproject:latest
