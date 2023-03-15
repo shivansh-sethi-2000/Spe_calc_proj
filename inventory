@@ -1,2 +1,2 @@
-[dev]
-localhost ansible_connection=local ansible_user=shivansh ansible_python_interpreter=/usr/bin/python3
+[macOS]
+localhost ansible_connection=local ansible_python_interpreter=/usr/bin/python3
