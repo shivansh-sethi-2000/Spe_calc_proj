@@ -1,15 +1,11 @@
----
 - name: Pull docker image of Calculator
   hosts: all
   tasks:
-
-    - name: Start docker service
-      service:
-        name: docker
-        state: started
-        
-    - name: pull docker image
-      shell: docker pull shivanshsethi2000/speminiproject:latest
-      
-    - name: running container
-      shell: docker run -it -d shivanshsethi2000/speminiproject:latest
+    - name: Install pip requests library
+      pip:
+        name: requests
+        state: present
+    - name: Pull image
+      docker_image:
+        name: shivanshsethi2000/spe_mini_project:latest
+        source: pull

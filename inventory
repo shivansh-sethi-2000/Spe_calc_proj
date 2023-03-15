@@ -1,2 +1,2 @@
 [dev]
-172.17.0.2 ansible_connection=local ansible_user=shivansh
+localhost ansible_connection=local ansible_user=shivansh ansible_python_interpreter=/usr/bin/python3
