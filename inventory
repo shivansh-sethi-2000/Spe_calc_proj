@@ -1,2 +1,2 @@
 [macOS]
-localhost ansible_connection=local ansible_user=shivanshsethi
+127.0.0.1 ansible_connection=local ansible_user=shivanshsethi
