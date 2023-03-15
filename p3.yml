@@ -7,5 +7,5 @@
         state: present
     - name: Pull image
       docker_image:
-        name: shivanshsethi2000/spe_mini_project:latest
+        name: shivanshsethi2000/spe_mini_proj:latest
         source: pull
