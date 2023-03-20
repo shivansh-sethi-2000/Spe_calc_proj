@@ -9,3 +9,5 @@
       docker_image:
         name: shivanshsethi2000/spe_mini_proj:latest
         source: pull
+    - name: creating updated container
+      shell: docker run -id shivanshsethi2000/spe_mini_proj:latest
