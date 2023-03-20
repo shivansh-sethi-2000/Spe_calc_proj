@@ -38,7 +38,7 @@ public class Scientific_Calculator {
                     break;
 
                 case 2:
-                    logger.info("Selected Choice: Sqaure Root");
+                    logger.info("Selected Choice: Sqcaure Root");
                     System.out.print("Enter a number : ");
                     number1 = scanner.nextDouble();
                     System.out.println("Square root of "+number1+" is : " + calculator.squareRoot(number1));
