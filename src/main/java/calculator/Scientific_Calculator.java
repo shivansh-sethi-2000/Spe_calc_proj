@@ -77,7 +77,7 @@ public class Scientific_Calculator {
         logger.info("Input - " + number);
         double result = 1;
         for(int i = 1; i <= number; ++i){ result *= i;   }
-        logger.info("Factorial of " + number + "is: "+ result);
+        logger.info("Factorial of " + number + " is: "+ result);
         return result;
     }
 
@@ -86,7 +86,7 @@ public class Scientific_Calculator {
     public double squareRoot(double number) {
         logger.info("Input - " + number);
         double result = Math.sqrt(number);
-        logger.info("Sqaure Root of " + number + "is: "+ result);
+        logger.info("Sqaure Root of " + number + " is: "+ result);
         return result;
     }
 
@@ -101,19 +101,16 @@ public class Scientific_Calculator {
     public double naturalLog(double number) {
         logger.info("Input - " + number);
         double result = 0;
-        try {
 
-            if (number <0 ) {
-                result = Double.NaN;
-                throw new ArithmeticException("Case of NaN 0.0/0.0");
-            }
-            else {
-                result = Math.log(number);
-            }
-        } catch (ArithmeticException error) {
-            System.out.println("Error: Cannot find log of negative numbers " + error.getLocalizedMessage());
+        if (number <0 ) {
+            result = Double.NaN;
+            System.out.println("Error: Cannot find log of negative numbers ");
+            logger.warn("Cannot find log of negative numbers");
         }
-        logger.info("Log base e of " +number+" is: "+ result);
+        else {
+            result = Math.log(number);
+            logger.info("Log base e of " +number+" is: "+ result);
+        }
         return result;
     }
 }
