@@ -1,0 +1,48 @@
+2023-03-21 16:41:18.464 [main] INFO  calculator.Scientific_Calculator - Input - 5.0
+2023-03-21 16:41:18.466 [main] INFO  calculator.Scientific_Calculator - Log base e of 5.0 is: 1.6094379124341003
+2023-03-21 16:41:18.466 [main] INFO  calculator.Scientific_Calculator - Input - 4.0
+2023-03-21 16:41:18.466 [main] INFO  calculator.Scientific_Calculator - Log base e of 4.0 is: 1.3862943611198906
+2023-03-21 16:41:18.466 [main] INFO  calculator.Scientific_Calculator - Input - 3.0
+2023-03-21 16:41:18.466 [main] INFO  calculator.Scientific_Calculator - Log base e of 3.0 is: 1.0986122886681098
+2023-03-21 16:41:18.467 [main] INFO  calculator.Scientific_Calculator - Input - 5.0
+2023-03-21 16:41:18.468 [main] INFO  calculator.Scientific_Calculator - Factorial of 5.0 is: 120.0
+2023-03-21 16:41:18.468 [main] INFO  calculator.Scientific_Calculator - Input - 4.0
+2023-03-21 16:41:18.468 [main] INFO  calculator.Scientific_Calculator - Factorial of 4.0 is: 24.0
+2023-03-21 16:41:18.468 [main] INFO  calculator.Scientific_Calculator - Input - 3.0
+2023-03-21 16:41:18.468 [main] INFO  calculator.Scientific_Calculator - Factorial of 3.0 is: 6.0
+2023-03-21 16:41:18.469 [main] INFO  calculator.Scientific_Calculator - Input - 5.0,1.0
+2023-03-21 16:41:18.469 [main] INFO  calculator.Scientific_Calculator - 5.0 to the power 1.0 is: 5.0
+2023-03-21 16:41:18.469 [main] INFO  calculator.Scientific_Calculator - Input - 4.0,2.0
+2023-03-21 16:41:18.469 [main] INFO  calculator.Scientific_Calculator - 4.0 to the power 2.0 is: 16.0
+2023-03-21 16:41:18.469 [main] INFO  calculator.Scientific_Calculator - Input - 3.0,3.0
+2023-03-21 16:41:18.469 [main] INFO  calculator.Scientific_Calculator - 3.0 to the power 3.0 is: 27.0
+2023-03-21 16:41:18.470 [main] INFO  calculator.Scientific_Calculator - Input - 25.0
+2023-03-21 16:41:18.470 [main] INFO  calculator.Scientific_Calculator - Sqaure Root of 25.0 is: 5.0
+2023-03-21 16:41:18.470 [main] INFO  calculator.Scientific_Calculator - Input - 16.0
+2023-03-21 16:41:18.470 [main] INFO  calculator.Scientific_Calculator - Sqaure Root of 16.0 is: 4.0
+2023-03-21 16:41:18.470 [main] INFO  calculator.Scientific_Calculator - Input - 9.0
+2023-03-21 16:41:18.470 [main] INFO  calculator.Scientific_Calculator - Sqaure Root of 9.0 is: 3.0
+2023-03-21 16:41:18.470 [main] INFO  calculator.Scientific_Calculator - Input - 5.0,1.0
+2023-03-21 16:41:18.470 [main] INFO  calculator.Scientific_Calculator - 5.0 to the power 1.0 is: 5.0
+2023-03-21 16:41:18.470 [main] INFO  calculator.Scientific_Calculator - Input - 4.0,2.0
+2023-03-21 16:41:18.470 [main] INFO  calculator.Scientific_Calculator - 4.0 to the power 2.0 is: 16.0
+2023-03-21 16:41:18.471 [main] INFO  calculator.Scientific_Calculator - Input - 3.0,3.0
+2023-03-21 16:41:18.471 [main] INFO  calculator.Scientific_Calculator - 3.0 to the power 3.0 is: 27.0
+2023-03-21 16:41:18.471 [main] INFO  calculator.Scientific_Calculator - Input - 5.0
+2023-03-21 16:41:18.471 [main] INFO  calculator.Scientific_Calculator - Factorial of 5.0 is: 120.0
+2023-03-21 16:41:18.471 [main] INFO  calculator.Scientific_Calculator - Input - 4.0
+2023-03-21 16:41:18.471 [main] INFO  calculator.Scientific_Calculator - Factorial of 4.0 is: 24.0
+2023-03-21 16:41:18.471 [main] INFO  calculator.Scientific_Calculator - Input - 3.0
+2023-03-21 16:41:18.471 [main] INFO  calculator.Scientific_Calculator - Factorial of 3.0 is: 6.0
+2023-03-21 16:41:18.471 [main] INFO  calculator.Scientific_Calculator - Input - 25.0
+2023-03-21 16:41:18.472 [main] INFO  calculator.Scientific_Calculator - Sqaure Root of 25.0 is: 5.0
+2023-03-21 16:41:18.472 [main] INFO  calculator.Scientific_Calculator - Input - 16.0
+2023-03-21 16:41:18.472 [main] INFO  calculator.Scientific_Calculator - Sqaure Root of 16.0 is: 4.0
+2023-03-21 16:41:18.472 [main] INFO  calculator.Scientific_Calculator - Input - 9.0
+2023-03-21 16:41:18.472 [main] INFO  calculator.Scientific_Calculator - Sqaure Root of 9.0 is: 3.0
+2023-03-21 16:41:18.472 [main] INFO  calculator.Scientific_Calculator - Input - 5.0
+2023-03-21 16:41:18.472 [main] INFO  calculator.Scientific_Calculator - Log base e of 5.0 is: 1.6094379124341003
+2023-03-21 16:41:18.472 [main] INFO  calculator.Scientific_Calculator - Input - 4.0
+2023-03-21 16:41:18.472 [main] INFO  calculator.Scientific_Calculator - Log base e of 4.0 is: 1.3862943611198906
+2023-03-21 16:41:18.472 [main] INFO  calculator.Scientific_Calculator - Input - 3.0
+2023-03-21 16:41:18.472 [main] INFO  calculator.Scientific_Calculator - Log base e of 3.0 is: 1.0986122886681098

@@ -48,7 +48,7 @@ pipeline{
         stage('DockerHub Push'){
             steps{
                 withCredentials([string(credentialsId: 'docker-hub', variable: 'dockerHubPwd')]) {
-                    sh "docker login -u shivanshsethi2000 -p MUjThqCu6.A9pbs"
+                    sh "docker login -u shivanshsethi2000 -p dockerHubPwd"
                 }
                 
                 sh "docker push shivanshsethi2000/spe_mini_proj:latest"
